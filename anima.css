@@ -1,0 +1,26 @@
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: #eff3d2;
+    border: 2px solid #333;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+    transition: height 0.3s ease; /* Smooth transition effect */
+}
+
+.messages {
+    display: none; /* Hide messages by default */
+}
+
+.box.open {
+    height: 500px; /* Expand box height when messages are opened */
+}
+
+.box.open .messages {
+    display: block; /* Show messages when box is open */
+}
+
+.messages p {
+    margin: 10px;
+}
