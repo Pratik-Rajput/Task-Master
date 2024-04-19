@@ -5,7 +5,7 @@
     list-style-type: none;
   }
   body {
-    background: linear-gradient(to right, #3bd6ce 50%, #ffffff 50%);
+    background: linear-gradient(to right, mediumslateblue 50%, #f1f3f1 50%);
   }
   .logo {
     font-size: 2rem;
@@ -32,11 +32,12 @@
     color: #000000;
   }
   .button {
-    background-color: #5ec2c8;
+    background-color:rgb(236, 190, 24);
     padding: 8px 10px;
     color: #ffffff !important;
     border-radius: 5px;
   }
+  
   /* Hero */
   .hero {
     width: 100%;
@@ -67,7 +68,7 @@
     margin-bottom: 40px;
   }
   .btns-button {
-    background-color: #c0a24f;
+    background-color: rgb(255, 200, 0);
     margin-right: 20px;
     padding: 8px 20px;
     border-radius: 5px;
@@ -89,12 +90,12 @@
     padding: 20px;
   }
   .right-top .rtop-img {
-    width: 80%;
+    width: 90%;
   }
   .right-top .soc-icons {
     display: flex;
     flex-direction: column;
-    background-color: #3bd6ce;
+    background-color: rgb(255, 200, 0);
     align-items: center;
     border-radius: 20px;
     margin-left: 40px;
@@ -125,7 +126,7 @@
   }
   .right-bottom .cta span {
     display: block;
-    width: 30px;
+    width: 290px;
     height: 3px;
-    background-color: #3bd6ce;
+    background-color: rgb(255, 200, 0);
   }
